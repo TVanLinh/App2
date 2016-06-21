@@ -1,0 +1,116 @@
+*{
+    padding:0px;
+    margin:0px;
+}
+body{
+    width:1000px;
+    margin:auto;
+    background-color:green;
+}
+#top{
+    height:400px;
+    background-image: url("anhbuoi.jpg");
+    text-align:center;
+    line-height:100px;
+}
+#hello{
+    height: 20px;
+    text-align: center;
+    color:red;
+    font-size: 20px;
+}
+#menu
+{
+    height:30px;
+    background:#00ffff;
+   font-size: 20px;
+}
+#menu ul li{
+    list-item:none;
+    float:left;
+    width:140px;
+    text-align:center;
+    line-height:30px;
+    position:relative;
+    list-style-type:none;
+}
+
+#menu ul li a{
+    text-decoration:none;
+    color:black;
+    display:block;
+}
+#wraper{
+    height:100%;
+    float:left;
+    width: 1000px;
+    
+}
+#wraper 
+{
+    margin-top: 10px;
+    float:left;
+    background: white;
+    height: auto;
+}
+#wraper ul li
+{
+    list-style-type:none;
+}
+#left{
+    width:620px;
+    border: 1px solid;
+    height: auto;
+    margin-right: 2px;
+    float:left;
+}
+#right{
+    width: 310px;
+    border: 1px solid;
+    height: auto;
+    background: red;
+}
+#buttom{
+    width: 1000px;
+    margin-top: 50px;
+    text-align: center;
+    background: blue;
+    height: 50px;
+    color: white;
+}
+.slideshow { 
+        position:relative; /*Make the slideshow container  position:relative and make the sub elements absolute to position the sub element absolute to the container*/
+        height:600px; /*The slide show height*/
+        overflow:hidden;
+    }
+    .slideshow div {
+        position:absolute; 
+        top:0px;;
+        left:0px;
+        z-index:8;
+    }
+    .slideshow div img
+    {
+        width:1000px; /*The image slide show width*/
+        height:400px; /*The image slide show height*/
+    }
+    .slideshow div.active {
+        z-index:10;
+    }
+    .slideshow div.lastactive {
+        z-index:9;
+    }
+.image
+{
+    width: 500px;
+    height: 500px;
+}
+#wraper ul li {
+    list-item:none;
+    text-decoration: none;
+    float:left;
+    list-style-type:none;
+}
+li{
+    list-style-type:none;
+}
